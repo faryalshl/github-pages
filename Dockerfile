@@ -1,5 +1,5 @@
 # Step 1: Use the official Node.js image to build the React app
-FROM node:16 
+FROM node:14
 # Set the working directory inside the container
 WORKDIR /app
 # Copy package.json and package-lock.json, then install dependencies
